@@ -8,5 +8,6 @@ This application is a native Java Android application and it uses Firebase for b
 2. A seller app which is for a store, which is used for tracking the sales
 
 # Demo
+https://user-images.githubusercontent.com/8223631/119260906-8e5ef680-bbf2-11eb-906d-6e39971bc983.mp4
 
-![video](https://user-images.githubusercontent.com/8223631/119260838-4b9d1e80-bbf2-11eb-9281-92fdc4596e85.mp4)
+
