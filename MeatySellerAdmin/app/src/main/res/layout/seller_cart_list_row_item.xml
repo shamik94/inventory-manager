@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:id="@+id/tvFishName"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="15dp"
+        android:layout_row="0"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:text="Fish Name" />
+
+    <EditText
+        android:id="@+id/etFishWeightKg"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_row="1"
+        android:inputType="numberDecimal"
+        android:hint="Enter weight in Kg"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/cbFishListSeller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+</GridLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/ivFishImage"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_light" />
+
+
+    <TextView
+        android:id="@+id/tvFishName"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_row="0"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:text="Fish Name" />
+
+    <TextView
+        android:id="@+id/tvFishPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_row="1"
+        android:text="Price per Kg"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/cbFishListSeller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+</GridLayout>

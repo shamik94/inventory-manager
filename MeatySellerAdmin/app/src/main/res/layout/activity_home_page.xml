@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bViewSales"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="163dp"
+        android:background="#ffc300"
+        android:text="VIEW SALES"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bUpdateFishPrice"
+        android:layout_width="257dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="58dp"
+        android:background="#8A0D0D"
+        android:text="UPDATE FISH PRICE"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bViewSales" />
+
+    <Button
+        android:id="@+id/bUpdateSellerCart"
+        android:layout_width="257dp"
+        android:layout_height="93dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="54dp"
+        android:background="@color/colorPrimary"
+        android:text="UPDATE SELLER CART"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bUpdateFishPrice" />
+</androidx.constraintlayout.widget.ConstraintLayout>
